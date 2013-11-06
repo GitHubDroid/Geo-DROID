@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/row_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/gpsproplabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="@string/gpslogproperty" />
+
+        <EditText
+            android:id="@+id/gpslogname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gpsproplabel"
+            android:inputType="text"
+            android:padding="5dp"
+            android:paddingBottom="15dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/starttime_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gpslogname"
+            android:padding="5dp"
+            android:text="@string/start_" />
+
+        <TextView
+            android:id="@+id/endtime_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/starttime_label"
+            android:padding="5dp"
+            android:text="@string/end_" />
+
+        <View
+            android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/widthLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/endtime_label"
+            android:padding="5dp"
+            android:text="@string/width_label" />
+
+        <Spinner
+            android:id="@+id/widthText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/strut"
+            android:layout_below="@id/widthLabel"
+            android:padding="5dp"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:id="@+id/colorLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/strut"
+            android:layout_alignTop="@+id/widthLabel"
+            android:padding="5dp"
+            android:text="@string/color_label" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/color_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/colorLabel"
+            android:layout_below="@id/colorLabel"
+            android:padding="5dp"
+            android:paddingBottom="30dp" />
+
+        <TextView
+            android:id="@+id/zoomLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/color_spinner"
+            android:padding="5dp"
+            android:text="@string/gpslog_zoom" />
+
+        <Button
+            android:id="@+id/gpslog_zoom_start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/strut"
+            android:layout_below="@+id/zoomLabel"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/gpslog_zoom_end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/strut"
+            android:layout_below="@+id/zoomLabel"
+            android:text="@string/end" />
+
+        <TextView
+            android:id="@+id/otherLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gpslog_zoom_start"
+            android:padding="5dp"
+            android:text="@string/other" />
+
+        <Button
+            android:id="@+id/gpslog_chart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/otherLabel"
+            android:layout_alignRight="@+id/gpslog_zoom_start"
+            android:layout_below="@+id/otherLabel"
+            android:text="@string/gpslog_chart" />
+
+        <Button
+            android:id="@+id/gpslog_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gpslog_zoom_end"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/otherLabel"
+            android:text="@string/gpslog_delete" />
+
+    </RelativeLayout>
+
+</ScrollView>
