@@ -140,8 +140,8 @@
                         "size": "24",
 						"type": "labelwithline"
                     },{
-                        "value": "a label with link to the geopaparazzi homepage",
-                        "url": "http://www.geopaparazzi.eu",
+                        "value": "a label with link to the Geo-DROID homepage",
+                        "url": "https://code.google.com/p/geo-droid-gis/",
                         "size": "20",
                         "type": "labelwithline"
                     }
