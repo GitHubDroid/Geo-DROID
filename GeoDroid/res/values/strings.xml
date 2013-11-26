@@ -53,10 +53,10 @@
     <string name="gps_log_name">Insert a gps log name or accept the default one</string>
     <string name="audio_recording">Recording audio… push here to stop</string>
     <string name="audio_recording_stop">stop</string>
-    <string name="panic">panic!</string>
-    <string name="panic_number">Panic number</string>
+    <string name="panic">alert!</string>
+    <string name="panic_number">Alert number</string>
     <string name="panic_number_notset">No valid panic number seems to be available. Did you set it in the preferences?</string>
-    <string name="panic_upper">  PANIC!  </string>
+    <string name="panic_upper">  ALERT!  </string>
     <string name="send_status_update">send position</string>
     <string name="help_needed">Help needed!</string>
     <string name="message_sent">Message sent</string>
@@ -69,7 +69,7 @@
     <string name="gpslogging_only">This function is available only when the gps is active and a signal is available.</string>
     <string name="remove_last_note_prompt">Do you really want to remove the last text note? This can\'t be undone.</string>
     <string name="installgpsstatus_title">Install GPS Status</string>
-    <string name="installgpsstatus_message">Geopaparazzi uses the Gps Status Application as compass and gps info view. Do you want to install it?</string>
+    <string name="installgpsstatus_message">Geo-DROID uses the Gps Status Application as compass and gps info view. Do you want to install it?</string>
 
     <!-- added after 2.1.2 -->
     <string name="reset">new project</string>
@@ -87,7 +87,7 @@
     <string name="gps_searching_fix">Gps is trying to acquire fix.</string>
     <string name="bookmarks_list_rename">Rename the bookmark</string>
     <string name="mapsactivity_menu_toggle_scalebar">toggle scalebar</string>
-    <string name="mapsactivity_menu_tilesource">tile source</string>
+    <string name="mapsactivity_menu_tilesource">Offline Base-Map</string>
     <string name="mapsactivity_delete_bookmarks">Deleting {0} bookmarks…</string>
     <string name="mapsactivity_delete_notes">Deleting {0} notes…</string>
     <string name="mapsactivity_new_bookmark">New bookmark</string>
@@ -122,10 +122,10 @@
     <string name="available_only_with_network">This function is available only with an active network connection.</string>
     <string name="error_osm_server">An error occurred while connecting to the OSM server. Please check your login and password. It is also possible that the OSM server is not available.</string>
     <string name="check_valid_field">Please check that the field \"{0}\" is valid.</string>
-    <string name="view_in_mixare">view in mixare</string>
+<!--     <string name="view_in_mixare">view in mixare</string> -->
     <string name="gps_use_coarse">Use network based position instead of gps (needs restart)</string>
     <string name="type_to_filter">type to filter</string>
-    <string name="geopapcloud_preferences">Geopap-Cloud Preferences</string>
+    <string name="geopapcloud_preferences">Geo-DROID Cloud Preferences</string>
     <string name="geopapcloud_user_label">Username</string>
     <string name="geopapcloud_password_label">Password</string>
     <string name="geopapcloud_server_label">Server to connect to</string>

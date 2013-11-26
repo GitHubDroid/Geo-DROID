@@ -40,11 +40,11 @@
                 android:layout_height="fill_parent"
                 android:orientation="vertical" >
 
-                <eu.hydrologis.geopaparazzi.maps.SliderDrawView
+                <eu.hydrologis.geodroid.maps.SliderDrawView
                     android:id="@+id/sliderdrawview"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent" >
-                </eu.hydrologis.geopaparazzi.maps.SliderDrawView>
+                </eu.hydrologis.geodroid.maps.SliderDrawView>
 
                 <!-- the zoombar -->
 
