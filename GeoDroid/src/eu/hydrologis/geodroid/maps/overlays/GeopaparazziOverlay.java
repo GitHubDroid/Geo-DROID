@@ -220,7 +220,7 @@ public abstract class GeopaparazziOverlay extends Overlay {
 
         gpsOutline = new Paint(Paint.ANTI_ALIAS_FLAG);
         gpsOutline.setStyle(Paint.Style.STROKE);
-        gpsOutline.setColor(Color.BLUE);
+        gpsOutline.setColor(Color.YELLOW);
         gpsOutline.setAlpha(128);
         gpsOutline.setStrokeWidth(2);
 
