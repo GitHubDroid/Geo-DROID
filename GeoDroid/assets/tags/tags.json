@@ -12,9 +12,8 @@
                         "value": "",
                         "type": "string",
                         "mandatory": "no"
-                    },
-                    {
-						"key": "pictures of the environment around the note",
+                    },{
+			"key": "pictures of the environment around the note",
                         "value": "",
                         "type": "pictures"
 					}
@@ -34,9 +33,8 @@
                         "value": "",
                         "type": "string",
                         "mandatory": "no"
-                    },
-                    {
-						"key": "sketches with drawings of the environment around the note",
+                    },{
+			"key": "sketches with drawings of the environment around the note",
                         "value": "",
                         "type": "sketch"
 					}
@@ -51,20 +49,20 @@
                 "formname": "map image note",
                 "formitems": [
 					{
-                        "key": "description",
+                        "key": "Site",
                         "islabel": "true",
+                        "value": "",
+                        "type": "string"
+                        "mandatory": "no"
+                    },{
+                   	"key": "description",
                         "value": "",
                         "type": "string",
                         "mandatory": "no"
                     },{
-                        "key": "Site",
-                        "value": "",
-                        "type": "string"
-                    },{
                         "key": "Category",
                         "values": {
                             "items": [
-                                {"item": ""},
                                 {"item": "Sewer"},
                                 {"item": "Storm"}
                             ]
