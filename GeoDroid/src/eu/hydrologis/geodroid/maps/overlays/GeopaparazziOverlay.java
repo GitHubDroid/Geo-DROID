@@ -215,12 +215,12 @@ public abstract class GeopaparazziOverlay extends Overlay {
         gpsMarker = context.getResources().getDrawable(R.drawable.current_position);
         gpsFill = new Paint(Paint.ANTI_ALIAS_FLAG);
         gpsFill.setStyle(Paint.Style.FILL);
-        gpsFill.setColor(Color.BLUE);
+        gpsFill.setColor(Color.YELLOW);
         gpsFill.setAlpha(48);
 
         gpsOutline = new Paint(Paint.ANTI_ALIAS_FLAG);
         gpsOutline.setStyle(Paint.Style.STROKE);
-        gpsOutline.setColor(Color.YELLOW);
+        gpsOutline.setColor(Color.BLUE);
         gpsOutline.setAlpha(128);
         gpsOutline.setStrokeWidth(2);
 
