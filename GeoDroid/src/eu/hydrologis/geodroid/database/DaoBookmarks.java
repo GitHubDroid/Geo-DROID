@@ -211,10 +211,10 @@ public class DaoBookmarks {
         sB.append(COLUMN_LON).append(" REAL NOT NULL, ");
         sB.append(COLUMN_LAT).append(" REAL NOT NULL,");
         sB.append(COLUMN_ZOOM).append(" REAL NOT NULL,");
-        sB.append(COLUMN_NORTHBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_SOUTHBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_WESTBOUND).append(" REAL NOT NULL,");
-        sB.append(COLUMN_EASTBOUND).append(" REAL NOT NULL,");
+        sB.append(COLUMN_NORTHBOUND).append(" NULL,");
+        sB.append(COLUMN_SOUTHBOUND).append(" NULL,");
+        sB.append(COLUMN_WESTBOUND).append(" NULL,");
+        sB.append(COLUMN_EASTBOUND).append(" NULL,");
         sB.append(COLUMN_TEXT).append(" TEXT NOT NULL ");
         sB.append(");");
         String CREATE_TABLE_BOOKMARKS = sB.toString();
