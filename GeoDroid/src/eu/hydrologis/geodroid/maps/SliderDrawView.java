@@ -74,7 +74,7 @@ public class SliderDrawView extends View {
         super(context, attrs);
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
-        doImperial = preferences.getBoolean(Constants.PREFS_KEY_IMPERIAL, false);
+        doImperial = preferences.getBoolean(Constants.PREFS_KEY_IMPERIAL, true);
         
         measurePaint.setAntiAlias(true);
         measurePaint.setColor(Color.DKGRAY);
