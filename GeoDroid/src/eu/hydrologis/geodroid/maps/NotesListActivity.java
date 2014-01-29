@@ -308,7 +308,7 @@ public class NotesListActivity extends ListActivity {
                             Intent intent = getIntent();
                             intent.putExtra(LibraryConstants.LATITUDE, note.getLat());
                             intent.putExtra(LibraryConstants.LONGITUDE, note.getLon());
-                            intent.putExtra(LibraryConstants.ZOOMLEVEL, 19);
+                            intent.putExtra(LibraryConstants.ZOOMLEVEL, 20);
                             // if (getParent() == null) {
                             setResult(Activity.RESULT_OK, intent);
                         }

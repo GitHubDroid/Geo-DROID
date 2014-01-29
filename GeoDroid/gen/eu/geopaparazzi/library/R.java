@@ -39,14 +39,14 @@ public final class R {
 		public static final int main_text_color_neutral = 0x7f07000a;
 	}
 	public static final class drawable {
-		public static final int border_black_1px = 0x7f020012;
-		public static final int current_position = 0x7f02001b;
-		public static final int form_text_color = 0x7f02002b;
-		public static final int goto_position = 0x7f02002e;
-		public static final int ic_launcher_bluegps = 0x7f020034;
-		public static final int ic_stat_notify = 0x7f02003c;
-		public static final int package_download = 0x7f020059;
-		public static final int tmp = 0x7f020088;
+		public static final int border_black_1px = 0x7f020011;
+		public static final int current_position = 0x7f02001a;
+		public static final int form_text_color = 0x7f02002a;
+		public static final int goto_position = 0x7f02002d;
+		public static final int ic_launcher_bluegps = 0x7f020033;
+		public static final int ic_stat_notify = 0x7f02003b;
+		public static final int package_download = 0x7f02005f;
+		public static final int tmp = 0x7f02008c;
 	}
 	public static final class id {
 		public static final int aboutview = 0x7f060004;
